@@ -57,14 +57,6 @@ void Sculptor::cutVoxel(int x, int y, int z){
     v[x][y][z].isOn = false;
 }
 
-  while(!q.empty()){
-    lx=q.front(); q.pop();
-    ly=q.front(); q.pop();
-    lz=q.front(); q.pop();
-    v[lx][ly][lz].isOn = false;
-  }
-}
-
 void Sculptor::writeOFF(char *filename){
 
     limpaVoxels();
