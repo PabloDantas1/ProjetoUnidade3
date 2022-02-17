@@ -15,4 +15,4 @@ public:
     void draw(Sculptor &s);
 };
 
-#endif // CUTBOX_H
+#endif
